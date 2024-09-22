@@ -1,21 +1,23 @@
 # Check05-Cyber
 
 ## Comandos
-
+```http
 sudo apt-get install openssh-server
-
+```
+```http
 /etc/ssh/sshd_config
+```
 ![image](https://github.com/user-attachments/assets/eda30b77-ccb2-4e67-bf9d-651d574d01dc)
 
 ![image](https://github.com/user-attachments/assets/ae99765d-0ec6-402c-99cd-93d09180bf4a)
 ![image](https://github.com/user-attachments/assets/483b98e0-bbcc-473c-9754-438f949b98a6)
 
-Visualização transferência de arquivos
+### Visualização transferência de arquivos
 ![image](https://github.com/user-attachments/assets/bef39fbb-9589-4791-b3fc-33d35f04212e)
 ![image](https://github.com/user-attachments/assets/65ce943f-cd49-4167-af4a-706cd83e1d83)
 ![image](https://github.com/user-attachments/assets/34671b64-0ae1-44de-9db5-494272a25457)
 
-Práticas recomendadas para proteger o acesso SSH
+### Práticas recomendadas para proteger o acesso SSH
 
 ![image](https://github.com/user-attachments/assets/340aaad1-468c-421a-b5c0-5e6c00326cc0)
 ![image](https://github.com/user-attachments/assets/0067661a-f5b8-444a-a7c2-cbdced5e0c6f)
