@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d306ad89-0305-4d5f-9acd-3d5919fe3adb)# Check05-Cyber
+# Check05-Cyber
 
 ## Comandos
 
