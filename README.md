@@ -3,6 +3,7 @@
 ## Comandos
 ```http
 sudo apt-get install openssh-server
+sudo apt install apache2
 ```
 ```http
 /etc/ssh/sshd_config
