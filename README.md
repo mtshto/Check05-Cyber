@@ -18,6 +18,10 @@ ssh -L [porta_local]:localhost:[porta_remota] user@servidor_remoto
 ```http
 sudo nano /etc/ssh/sshd_config
 ```
+```http
+/etc/apache2/ ports.conf
+listen 80
+```
 
 ![image](https://github.com/user-attachments/assets/eda30b77-ccb2-4e67-bf9d-651d574d01dc)
 
