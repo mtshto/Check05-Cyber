@@ -7,6 +7,13 @@ sudo apt-get install openssh-server
 ```http
 /etc/ssh/sshd_config
 ```
+
+Redirecionamento do usuário
+Isso significa que qualquer tráfego na sua máquina local para a porta 9090 será redirecionado para a porta 8080 no servidor remoto através de SSH.
+```http
+ssh -L 9090:localhost:8080 user@remote-server
+```
+
 ![image](https://github.com/user-attachments/assets/eda30b77-ccb2-4e67-bf9d-651d574d01dc)
 
 ![image](https://github.com/user-attachments/assets/ae99765d-0ec6-402c-99cd-93d09180bf4a)
