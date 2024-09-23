@@ -30,6 +30,8 @@ sudo apt-get install openssh-server
 
 # Metodo_GET_POST
 
+## /var/www/html (ls ou cat xxxx.html)
+
 #### Verificar a Versão do PHP Instalado
 ```http
 php -v
