@@ -46,3 +46,59 @@ sudo apt install php7.4 libapache2-mod-php7.4
 sudo systemctl restart apache2
 ```
 
+#### form_get.html
+```http
+<!-- form_get.html -->
+<html>
+<body>
+<h2>Formulário GET</h2>
+<form action="process_get.php" method="GET">
+Nome: <input type="text" name="nome"><br><br>
+Email: <input type="email" name="email"><br><br>
+<input type="submit" value="Enviar">
+</form>
+</body>
+</html>
+```
+
+#### process_get.php
+```http
+<!-- process_get.php -->
+<?php
+?>
+$nome = $_GET['nome'];
+$email = $_GET['email'];
+echo "<h2>Dados Recebidos via GET</h2>";
+echo "Nome: ". htmlspecialchars(Snome). "<br>";
+echo "Email: " htmlspecialchars(Semail). "<br>";
+```
+
+#### form_post.html
+```http
+<!-- form_post.html -->
+<html>
+<body>
+<h2>Formulário POST</h2>
+<form action="process_post.php" method="POST">
+Usuário: <input type="text" name="usuario"><br><br>
+Senha: <input type="password" name="senha"><br><br>
+<input type="submit" value="Registrar">
+</form>
+</body>
+</html>
+```
+
+#### process_post.php
+```http
+<!-- process_post.php -->
+<?php
+??
+Susuario = $_POST['usuario'];
+Ssenha = $_POST['senha'];
+echo "<h2>Dados Recebidos via POST</h2>";
+echo "Usuário: ". htmlspecialchars(Susuario). "<br>";
+echo "Senha: ". htmlspecialchars($senha). "<br>";
+```
+
+## Ataque de força bruta
+- BURP SUITE (Kali) e Foxproxy (Mozila)
