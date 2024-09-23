@@ -32,6 +32,7 @@ listen 80
 ![image](https://github.com/user-attachments/assets/bef39fbb-9589-4791-b3fc-33d35f04212e)
 ![image](https://github.com/user-attachments/assets/65ce943f-cd49-4167-af4a-706cd83e1d83)
 ![image](https://github.com/user-attachments/assets/34671b64-0ae1-44de-9db5-494272a25457)
+![image](https://github.com/user-attachments/assets/b1f3d16a-c633-4808-83ca-381e1381529a)
 
 ## Práticas recomendadas para proteger o acesso SSH
 
